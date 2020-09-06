@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ibme *.css
+recursive-include ibme *.csv
+recursive-include ibme *.html
+recursive-include ibme *.ico
+recursive-include ibme *.js
+recursive-include ibme *.json
+recursive-include ibme *.md
+recursive-include ibme *.png
+recursive-include ibme *.py
+recursive-include ibme *.svg
+recursive-include ibme *.txt
+recursive-exclude ibme *.pyc
